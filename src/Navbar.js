@@ -3,10 +3,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 const Navbar = () =>{
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
             <div className="container-fluid">
                 <a className="navbar-brand" href="#">
-                    My Portfolio
+                    vmb.codes
                 </a>
                 <button
                     className="navbar-toggler"
@@ -23,17 +23,17 @@ const Navbar = () =>{
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a className="nav-link active" aria-current="page" href="#">
-                                Home
+                                Kezdőlap
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Projects
+                                Referenciák
                             </a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" href="#">
-                                Contact
+                                Kapcsolat
                             </a>
                         </li>
                     </ul>

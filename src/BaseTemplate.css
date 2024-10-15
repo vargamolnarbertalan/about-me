@@ -1,0 +1,28 @@
+.project-card {
+    padding: 12px 0px;
+}
+
+.card {
+  background-color: #fff; /* Initial color */
+  transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+.card:hover {
+  background-color: rgb(106, 17, 203);
+  color: #fff; /* Change text color to white */
+}
+
+.card-title{
+    color: rgb(106, 17, 203);
+    text-decoration: none; 
+    transition: color 0.3s ease;
+}
+
+.card:hover .card-title{
+  color: rgb(186, 211, 255);
+/* Change text color to white */
+}
+
+@media (max-width: 768px) {
+    .row{flex-direction: column;}
+}
